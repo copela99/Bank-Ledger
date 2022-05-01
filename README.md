@@ -4,11 +4,17 @@ In this project, I created a bank account calculator that can process withdraws 
 Example:
 
 string input = 
+
 "2016-09-02 Deposit $500\n"
+
 "2016-09-02 Withdraw $23.54\n"
+
 "2016-09-04 Withdraw $58\n"
+
 "2016-11-02 Deposit $200\n"
+
 "2017-03-02 Withdraw $1000\n"
+
 "2019-11-02 Deposit $500\n";
 
 string result = process_commands(input, 7);
